@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//   1
@@ -11,5 +13,4 @@ func main() {
 	gender := "male"
 
 	fmt.Println("name :", name, "age :", age, "gender :", gender)
-
 }
